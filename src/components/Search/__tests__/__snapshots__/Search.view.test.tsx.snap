@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component snapshots Search props 1`] = `
+<Fragment>
+  <input
+    name="searchVal"
+    onChange={[Function]}
+    placeholder="Titles"
+    type="text"
+    value=""
+  />
+</Fragment>
+`;

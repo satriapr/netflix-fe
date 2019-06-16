@@ -1,0 +1,32 @@
+.logo {
+  float: left;
+  font-size: 30px;
+}
+
+.logo a {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #e60000;
+}
+
+.searchBar {
+  float: right;
+}
+
+.clear {
+  clear: both
+}
+
+@media only screen and (max-width: 690px) {
+  .logo,
+  .searchBar {
+    float: none;
+  }
+
+  .logo {
+    text-align: center;
+  }
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryArrow Component snapshots CategoryArrow props 1`] = `
+<div
+  className="arrow-prev"
+>
+  &lt;
+</div>
+`;

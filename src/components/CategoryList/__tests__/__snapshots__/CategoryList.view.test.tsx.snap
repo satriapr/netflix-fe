@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryList Component snapshots CategoryList props 1`] = `
+<Fragment>
+  <div
+    key="0"
+  >
+    <Category
+      categoryTitle="Popular on Netflix"
+      keyword="man"
+      type="movie"
+    />
+  </div>
+  <div
+    key="1"
+  >
+    <Category
+      categoryTitle="Classic Film"
+      keyword="gun"
+      type="movie"
+    />
+  </div>
+  <div
+    key="2"
+  >
+    <Category
+      categoryTitle="TV Series"
+      keyword="man"
+      type="series"
+    />
+  </div>
+</Fragment>
+`;

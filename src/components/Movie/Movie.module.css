@@ -1,0 +1,86 @@
+.movieTitle {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  white-space: initial;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.movieCard {
+  position: relative;
+  width: 170px;
+  height: 250px;
+  transition: all 0.7s;
+  background: black;
+}
+
+.movieCard:hover {
+  width: 190px;
+  height: 280px;
+}
+
+.movieCard:hover .movieTitle {
+  visibility: visible;
+  opacity: 1;
+}
+
+.movieCard:hover img {
+  width: 190px;
+  height: 280px;
+  vertical-align: -15px;
+  opacity: 0.3;
+}
+
+@media only screen and (max-width: 900px) {
+  .movieCard,
+  img {
+    width: 140px;
+    height: 180px;
+  }
+
+  .movieCard:hover,
+  .movieCard:hover img {
+    width: 160px;
+    height: 210px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .movieCard,
+  img {
+    width: 100px;
+    height: 140px;
+  }
+
+  .movieCard:hover,
+  .movieCard:hover img {
+    width: 120px;
+    height: 180px;
+    vertical-align: -20px;
+  }
+
+  .movieTitle {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .movieCard,
+  img {
+    width: 90px;
+    height: 130px;
+  }
+
+  .movieCard:hover,
+  .movieCard:hover img {
+    width: 110px;
+    height: 120px;
+  }
+}

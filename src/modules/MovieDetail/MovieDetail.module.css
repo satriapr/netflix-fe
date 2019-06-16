@@ -1,0 +1,81 @@
+.backHeight {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 410px;
+  font-size: 18px;
+  color: #e6e6e6;
+  font-weight: 500;
+}
+
+.content h1 {
+  text-align: center;
+  margin: 30px;
+  margin-top: 10px;
+}
+
+.content p {
+  line-height: 19px;
+}
+
+.movieDetailImage {
+  text-align: center
+}
+
+.runAndRate {
+  text-align: center;
+  font-size: 14px;
+  padding-right: 6px;
+}
+
+.run {
+  padding-right: 6px;
+}
+
+.rate {
+  border-left: 1px solid white;
+  padding-left: 6px;
+}
+
+.overviewContainer {
+  margin-top: 10px;
+}
+
+.greyed {
+  color: #9c9c9c;
+}
+
+@media only screen and (max-width: 900px) {
+  .backHeight {
+    height: 100vh;
+  }
+
+  /* movie detail */
+  .content {
+    width: 90%;
+    font-size: 93%;
+  }
+
+  .content h1 {
+    margin: 30px 0;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .backHeight {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .backHeight {
+    height: 100%;
+  }
+}

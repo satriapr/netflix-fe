@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie Component snapshots Movie props 1`] = `
+<Link
+  to="/123123"
+>
+  <div
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <img
+      alt="Running Man"
+      src=""
+    />
+  </div>
+</Link>
+`;
