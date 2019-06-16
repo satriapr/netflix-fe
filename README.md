@@ -6,6 +6,16 @@ This is a simple Netflix clone using React.js and Typescript, generated using cr
 yarn create react-app my-app --typescript
 ```
 
+## FE Requirement
+
+API: [omdbAPI](http://www.omdbapi.com/)
+
+1. Users can see different category in movie list page -> Done
+2. Users can swipe horizontal in each category -> Done. Notes: If you use wide screen please try to resize the browser because OMDB max response for movie is 10.
+3. Users can see movie detail page -> Done
+4. Users can search movie title -> I'm adding this as extra feature
+
+
 ## Installation
 
 Use the package manager [yarn](https://yarnpkg.com/en/) to install dependencies.
@@ -17,6 +27,7 @@ yarn install
 ## Technical overview
 
 ### I. Main dependency libraries
+- [React](https://reactjs.org/): Javascript UI library
 - [Typescript](https://www.typescriptlang.org/docs/home.html): typed javascript, convenient for coding (autocomplete typing, type checking) and refactoring
 - [Axios](https://github.com/axios/axios): promise based HTTP client
 - [Ramda](https://ramdajs.com/docs): functional library for general use
@@ -47,8 +58,6 @@ To run test:
 ```bash
 yarn test
 ```
-Notes: If test error, please change "jsx" property value in tsconfig.json to "react"
-
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
